@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GamesHub Pro – Mobile & PC Game Reviews, Tips & News</title>
+  <meta name="description" content="GamesHub Pro is your ultimate destination for honest game reviews, tips & tricks, beginner guides, and the latest gaming news for mobile and PC games." />
+  <meta name="keywords" content="game reviews, mobile games, PC games, gaming tips, must play games, best mobile games 2025" />
+  <link rel="canonical" href="https://gameshubpro.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gameshubpro.com/" />
+  <meta property="og:title" content="GamesHub Pro – Mobile & PC Game Reviews, Tips & News" />
+  <meta property="og:description" content="Explore honest game reviews, expert strategies, beginner guides, and the hottest gaming news — all in one place." />
+  <meta property="og:image" content="https://gameshubpro.com/images/og-banner.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="GamesHub Pro – Mobile & PC Game Reviews, Tips & News" />
+  <meta name="twitter:description" content="Honest reviews, pro tips, and must-play lists for mobile & PC gamers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" id="top">
+    <div class="container nav-wrapper">
+      <a href="#" class="logo" aria-label="GamesHub Pro Home">
+        <span class="logo-icon">🎮</span>
+        <span class="logo-text">GamesHub<span class="logo-accent">Pro</span></span>
+      </a>
+      <nav class="main-nav" role="navigation" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#featured-reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#top-games" class="nav-link">Top Games</a></li>
+          <li><a href="#news" class="nav-link">News</a></li>
+          <li><a href="#guides" class="nav-link">Guides</a></li>
+          <li><a href="#categories" class="nav-link">Categories</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn-search" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" aria-label="Hero Banner">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge">🔥 Trending Now</div>
+      <h1 class="hero-title">Your Ultimate <span class="gradient-text">Gaming Hub</span> for Reviews, Tips & More</h1>
+      <p class="hero-subtitle">Discover honest game reviews, pro-level strategies, beginner-friendly guides, and the freshest news across mobile and PC gaming — all handpicked by passionate gamers.</p>
+      <div class="hero-cta-group">
+        <a href="#featured-reviews" class="btn btn-primary">Explore Reviews</a>
+        <a href="#top-games" class="btn btn-ghost">Top Must-Play Games</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item"><span class="stat-num">200+</span><span class="stat-label">Games Reviewed</span></div>
+        <div class="stat-item"><span class="stat-num">50+</span><span class="stat-label">Strategy Guides</span></div>
+        <div class="stat-item"><span class="stat-num">1M+</span><span class="stat-label">Gamers Helped</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="section categories-section" id="categories" aria-label="Game Categories">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Browse by Category</h2>
+        <p class="section-subtitle">Find your favorite genre and dive into the best picks.</p>
+      </div>
+      <div class="categories-grid">
+        <a href="#featured-reviews" class="category-card cat-action"><span class="cat-icon">⚔️</span><span class="cat-name">Action Games</span><span class="cat-count">48 Reviews</span></a>
+        <a href="#featured-reviews" class="category-card cat-puzzle"><span class="cat-icon">🧩</span><span class="cat-name">Puzzle Games</span><span class="cat-count">32 Reviews</span></a>
+        <a href="#featured-reviews" class="category-card cat-racing"><span class="cat-icon">🏎️</span><span class="cat-name">Racing Games</span><span class="cat-count">25 Reviews</span></a>
+        <a href="#featured-reviews" class="category-card cat-rpg"><span class="cat-icon">🗡️</span><span class="cat-name">RPG & Adventure</span><span class="cat-count">40 Reviews</span></a>
+        <a href="#featured-reviews" class="category-card cat-sports"><span class="cat-icon">⚽</span><span class="cat-name">Sports Games</span><span class="cat-count">18 Reviews</span></a>
+        <a href="#featured-reviews" class="category-card cat-shooter"><span class="cat-icon">🔫</span><span class="cat-name">Shooter Games</span><span class="cat-count">29 Reviews</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED REVIEWS -->
+  <section class="section featured-section" id="featured-reviews" aria-label="Featured Game Reviews">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-label">⭐ Hand-Picked</div>
+        <h2 class="section-title">Featured Game Reviews</h2>
+        <p class="section-subtitle">Our editors play every game before writing — honest, in-depth opinions, not hype.</p>
+      </div>
+      <div class="reviews-grid">
+
+        <article class="review-card">
+          <div class="card-img-wrapper">
+            <img src="https://placehold.co/400x220/1a1a2e/a855f7?text=Hungry+Shark+Evolution&font=outfit" alt="Hungry Shark Evolution gameplay showing underwater shark action" class="card-img" loading="eager" width="400" height="220" />
+            <span class="card-badge badge-hot">🔥 Hot Pick</span>
+            <div class="card-rating" aria-label="Rating 4.6 out of 5"><span class="stars">★★★★★</span><span class="rating-num">4.6</span></div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta"><span class="card-genre">Action • Mobile</span><span class="card-date">Feb 2025</span></div>
+            <h3 class="card-title">Hungry Shark Evolution – The Ocean is Your Playground</h3>
+            <p class="card-excerpt">One of the most addictive mobile action games ever made. Control a relentless shark on a mission to eat everything in sight — fish, divers, even giant squids. The progression system is deeply satisfying and each new shark unlocks fresh chaos. For the full unlocked experience, check out the <a href="https://hungrysharkevolutionmod.com/" rel="dofollow" class="inline-link">Hungry Shark Evolution MOD APK</a>. iOS players can also grab the <a href="https://hungrysharkevolutionmod.com/hungry-shark-evolution-mod-apk-for-ios/" rel="dofollow" class="inline-link">Hungry Shark Evolution MOD iOS</a> version.</p>
+            <a href="#guides" class="btn btn-card">Read Full Review →</a>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="card-img-wrapper">
+            <img src="https://placehold.co/400x220/0f172a/22d3ee?text=Real+Racing+3&font=outfit" alt="Real Racing 3 showcasing realistic licensed cars on Le Mans circuit" class="card-img" loading="lazy" width="400" height="220" />
+            <span class="card-badge badge-top">🏆 Top Rated</span>
+            <div class="card-rating" aria-label="Rating 4.7 out of 5"><span class="stars">★★★★★</span><span class="rating-num">4.7</span></div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta"><span class="card-genre">Racing • Mobile/PC</span><span class="card-date">Jan 2025</span></div>
+            <h3 class="card-title">Real Racing 3 – The Mobile Racing Benchmark</h3>
+            <p class="card-excerpt">Real Racing 3 sets the gold standard for mobile racing simulations with officially licensed cars from Ferrari, Porsche, and Bugatti — plus real-world tracks like Le Mans and Silverstone. Its career mode and time-shifted multiplayer make every race meaningful. Players who want every car without grinding can explore the <a href="https://realracing3modapk.site/" rel="dofollow" class="inline-link">Real Racing 3 Mod APK</a>.</p>
+            <a href="#guides" class="btn btn-card">Read Full Review →</a>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="card-img-wrapper">
+            <img src="https://placehold.co/400x220/1a1a2e/f97316?text=Temple+Run+2&font=outfit" alt="Temple Run 2 endless runner with jungle obstacles and zip-line mechanics" class="card-img" loading="lazy" width="400" height="220" />
+            <span class="card-badge badge-classic">🕹️ Classic</span>
+            <div class="card-rating" aria-label="Rating 4.4 out of 5"><span class="stars">★★★★☆</span><span class="rating-num">4.4</span></div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta"><span class="card-genre">Runner • Mobile</span><span class="card-date">Dec 2024</span></div>
+            <h3 class="card-title">Temple Run 2 – The Endless Runner That Defined a Genre</h3>
+            <p class="card-excerpt">Temple Run 2 raised the bar for endless runners with stunning environments, intuitive swipe controls, and a rich upgrade system. The sense of speed never gets old. Players looking to unlock all characters from day one can explore the <a href="https://templerun2modapk.xyz/" rel="dofollow" class="inline-link">Temple Run 2 Mod APK</a> for an enhanced run right away.</p>
+            <a href="#guides" class="btn btn-card">Read Full Review →</a>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="card-img-wrapper">
+            <img src="https://placehold.co/400x220/0f172a/4ade80?text=Score+Hero&font=outfit" alt="Score Hero football puzzle game showing curved pass and goal celebration" class="card-img" loading="lazy" width="400" height="220" />
+            <span class="card-badge badge-new">🆕 Updated</span>
+            <div class="card-rating" aria-label="Rating 4.5 out of 5"><span class="stars">★★★★★</span><span class="rating-num">4.5</span></div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta"><span class="card-genre">Sports • Mobile</span><span class="card-date">Feb 2025</span></div>
+            <h3 class="card-title">Score Hero – Football Puzzle Gaming Done Right</h3>
+            <p class="card-excerpt">Score Hero brilliantly blends football simulation with puzzle mechanics. Draw the perfect pass trajectory, find pockets of space, and outsmart goalkeepers. With thousands of levels and a compelling career mode, it's a must-have. Fans wanting unlimited energy often use the <a href="https://scoreheromodapk.online/" rel="dofollow" class="inline-link">Score Hero MOD APK</a>.</p>
+            <a href="#guides" class="btn btn-card">Read Full Review →</a>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="card-img-wrapper">
+            <img src="https://placehold.co/400x220/1a1a2e/facc15?text=Sonic+Dash&font=outfit" alt="Sonic Dash mobile game showing Sonic running through colorful loop-de-loops" class="card-img" loading="lazy" width="400" height="220" />
+            <span class="card-badge badge-hot">🔥 Fan Fave</span>
+            <div class="card-rating" aria-label="Rating 4.5 out of 5"><span class="stars">★★★★★</span><span class="rating-num">4.5</span></div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta"><span class="card-genre">Endless Runner • Mobile</span><span class="card-date">Jan 2025</span></div>
+            <h3 class="card-title">Sonic Dash – Speed, Style & Nostalgia in Your Pocket</h3>
+            <p class="card-excerpt">Sonic Dash channels the iconic Blue Blur into a thrilling endless runner with classic SEGA boss battles, a deep character roster, and vibrant 3D worlds. Players who want all characters and rings can dive into the <a href="https://sonicdashmodapk.online/" rel="dofollow" class="inline-link">Sonic Dash MOD APK</a> for the full-speed experience.</p>
+            <a href="#guides" class="btn btn-card">Read Full Review →</a>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="card-img-wrapper">
+            <img src="https://placehold.co/400x220/0f172a/f43f5e?text=Mini+Militia&font=outfit" alt="Mini Militia multiplayer shooter with cartoon soldiers and weapon loadouts" class="card-img" loading="lazy" width="400" height="220" />
+            <span class="card-badge badge-top">🏆 Multiplayer Hit</span>
+            <div class="card-rating" aria-label="Rating 4.6 out of 5"><span class="stars">★★★★★</span><span class="rating-num">4.6</span></div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta"><span class="card-genre">Shooter • Mobile</span><span class="card-date">Dec 2024</span></div>
+            <h3 class="card-title">Mini Militia – The Best Couch Multiplayer Shooter on Mobile</h3>
+            <p class="card-excerpt">Mini Militia (Doodle Army 2) is a legendary mobile shooter supporting up to 6 players online or via local Wi-Fi. A huge arsenal of weapons, jetpacks, and frantic close-quarters combat make it endlessly fun. Competitive players often explore the <a href="http://minimilitiamodapk.online/" rel="dofollow" class="inline-link">Mini Militia Mod APK</a> for enhanced loadouts.</p>
+            <a href="#guides" class="btn btn-card">Read Full Review →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TOP GAMES / MUST-PLAY -->
+  <section class="section top-games-section" id="top-games" aria-label="Top Must-Play Games">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-label">🏆 Editor's Choice</div>
+        <h2 class="section-title">Top Must-Play Games of 2025</h2>
+        <p class="section-subtitle">Ranked after hundreds of hours of play — the games you absolutely cannot miss this year.</p>
+      </div>
+      <div class="must-play-grid">
+
+        <div class="must-play-card">
+          <div class="rank-badge">01</div>
+          <div class="must-play-content">
+            <div class="must-play-header">
+              <h3 class="must-play-title">Stumble Guys</h3>
+              <span class="must-play-genre">Battle Royale • Party</span>
+            </div>
+            <p class="must-play-desc">A hilarious 32-player battle royale where you race through chaotic obstacle courses. Pure fun, perfect with friends. Players exploring extra features and skins can check out <a href="https://sgproapk.com/" rel="dofollow" class="inline-link">Stumble Guys Mod APK</a>.</p>
+            <div class="must-play-footer">
+              <div class="must-play-rating"><span class="stars-sm">★★★★★</span><span>4.8 / 5</span></div>
+              <span class="platform-tag">📱 Mobile</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="must-play-card">
+          <div class="rank-badge">02</div>
+          <div class="must-play-content">
+            <div class="must-play-header">
+              <h3 class="must-play-title">Genshin Impact</h3>
+              <span class="must-play-genre">RPG • Open World</span>
+            </div>
+            <p class="must-play-desc">A free-to-play open-world RPG with console-quality visuals, expansive story, and elemental combat that rewards clever thinking. Cross-platform play between mobile, PC, and consoles makes it accessible to all.</p>
+            <div class="must-play-footer">
+              <div class="must-play-rating"><span class="stars-sm">★★★★★</span><span>4.7 / 5</span></div>
+              <span class="platform-tag">📱💻 Mobile & PC</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="must-play-card">
+          <div class="rank-badge">03</div>
+          <div class="must-play-content">
+            <div class="must-play-header">
+              <h3 class="must-play-title">PUBG Mobile</h3>
+              <span class="must-play-genre">Battle Royale • Shooter</span>
+            </div>
+            <p class="must-play-desc">The definitive mobile battle royale. Drop 100 players onto a shrinking map, loot weapons, and fight to be the last one standing. Constant season updates keep the competition fierce.</p>
+            <div class="must-play-footer">
+              <div class="must-play-rating"><span class="stars-sm">★★★★★</span><span>4.6 / 5</span></div>
+              <span class="platform-tag">📱 Mobile</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="must-play-card">
+          <div class="rank-badge">04</div>
+          <div class="must-play-content">
+            <div class="must-play-header">
+              <h3 class="must-play-title">Minecraft</h3>
+              <span class="must-play-genre">Sandbox • Survival</span>
+            </div>
+            <p class="must-play-desc">The best-selling game of all time for a reason. Build anything, explore infinite worlds, and survive the night. Suitable for all ages and a genuine creative powerhouse on both mobile and PC.</p>
+            <div class="must-play-footer">
+              <div class="must-play-rating"><span class="stars-sm">★★★★★</span><span>4.8 / 5</span></div>
+              <span class="platform-tag">📱💻 Mobile & PC</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="must-play-card">
+          <div class="rank-badge">05</div>
+          <div class="must-play-content">
+            <div class="must-play-header">
+              <h3 class="must-play-title">Clash of Clans</h3>
+              <span class="must-play-genre">Strategy • Base Building</span>
+            </div>
+            <p class="must-play-desc">Build your village, train your troops, join Clan Wars, and climb the global leaderboard. Over a decade old and still at the top — a strategy classic that rewards patient planners and aggressive attackers alike.</p>
+            <div class="must-play-footer">
+              <div class="must-play-rating"><span class="stars-sm">★★★★☆</span><span>4.5 / 5</span></div>
+              <span class="platform-tag">📱 Mobile</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="must-play-card">
+          <div class="rank-badge">06</div>
+          <div class="must-play-content">
+            <div class="must-play-header">
+              <h3 class="must-play-title">Fortnite</h3>
+              <span class="must-play-genre">Battle Royale • Creative</span>
+            </div>
+            <p class="must-play-desc">A cultural phenomenon with unique build mechanics, an ever-evolving map, and crossover events with Marvel, Star Wars, and more. Free-to-play with a rich creative mode to build your own game worlds.</p>
+            <div class="must-play-footer">
+              <div class="must-play-rating"><span class="stars-sm">★★★★★</span><span>4.6 / 5</span></div>
+              <span class="platform-tag">📱💻 Mobile & PC</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LATEST NEWS -->
+  <section class="section news-section" id="news" aria-label="Latest Gaming News">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-label">📰 Breaking News</div>
+        <h2 class="section-title">Latest Gaming News & Updates</h2>
+        <p class="section-subtitle">Stay ahead of the curve with the freshest updates from the gaming world.</p>
+      </div>
+      <div class="news-grid">
+
+        <article class="news-card news-featured">
+          <div class="news-img-wrapper">
+            <img src="https://placehold.co/700x380/1a1a2e/a855f7?text=2025+Mobile+Gaming+Trends&font=outfit" alt="2025 mobile gaming trends showing cloud gaming and AR game growth" class="news-img" loading="lazy" width="700" height="380" />
+            <span class="news-tag">Trending</span>
+          </div>
+          <div class="news-body">
+            <span class="news-date">February 20, 2025</span>
+            <h3 class="news-title">Mobile Gaming in 2025: What's Changing the Industry Right Now</h3>
+            <p class="news-excerpt">Cloud gaming, AI-driven NPCs, and AR integration are reshaping mobile gaming as we speak. We break down the five biggest trends every gamer needs to know — from subscription-based mobile services to day-one cross-platform launches that blur the line between mobile and console.</p>
+            <a href="#guides" class="btn btn-outline">Read More →</a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-img-wrapper">
+            <img src="https://placehold.co/400x200/0f172a/22d3ee?text=PUBG+New+Season&font=outfit" alt="PUBG Mobile new season with Rondo map preview and seasonal rewards" class="news-img" loading="lazy" width="400" height="200" />
+            <span class="news-tag">Update</span>
+          </div>
+          <div class="news-body">
+            <span class="news-date">February 18, 2025</span>
+            <h3 class="news-title">PUBG Mobile Season 20 Drops with a Massive New Map</h3>
+            <p class="news-excerpt">The new Rondo map brings vertical combat, ziplines, and a day-night cycle. Here's everything you need to know about the new seasonal rewards and meta weapon shifts.</p>
+            <a href="#guides" class="btn btn-outline-sm">Read More →</a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-img-wrapper">
+            <img src="https://placehold.co/400x200/1a1a2e/4ade80?text=Genshin+4.5+Update&font=outfit" alt="Genshin Impact version 4.5 new Fontaine characters and quests preview" class="news-img" loading="lazy" width="400" height="200" />
+            <span class="news-tag">Patch</span>
+          </div>
+          <div class="news-body">
+            <span class="news-date">February 15, 2025</span>
+            <h3 class="news-title">Genshin Impact 4.5: New Characters, Quests & Fontaine Expansion</h3>
+            <p class="news-excerpt">Version 4.5 introduces two new five-star characters and an expanded Fontaine story arc. We've got a full breakdown and a free primogems farming guide.</p>
+            <a href="#guides" class="btn btn-outline-sm">Read More →</a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-img-wrapper">
+            <img src="https://placehold.co/400x200/0f172a/f97316?text=Clash+of+Clans+2025&font=outfit" alt="Clash of Clans 2025 Builder Base overhaul with new troops and matchmaking" class="news-img" loading="lazy" width="400" height="200" />
+            <span class="news-tag">Feature</span>
+          </div>
+          <div class="news-body">
+            <span class="news-date">February 10, 2025</span>
+            <h3 class="news-title">Clash of Clans Overhauls Builder Base in Biggest 2025 Update</h3>
+            <p class="news-excerpt">Supercell revamped the Builder Base with new troops, overhauled matchmaking, and a redesigned progression path. Here's our first-look analysis of what changed.</p>
+            <a href="#guides" class="btn btn-outline-sm">Read More →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GUIDES CAROUSEL -->
+  <section class="section guides-section" id="guides" aria-label="Strategy Guides">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-label">📖 Level Up</div>
+        <h2 class="section-title">Strategy Guides & Tips</h2>
+        <p class="section-subtitle">Written by experienced players — whether you're a beginner or a competitive veteran.</p>
+      </div>
+      <div class="guides-carousel-wrapper">
+        <div class="guides-carousel" id="guidesCarousel">
+
+          <div class="guide-card">
+            <div class="guide-icon">🦈</div>
+            <div class="guide-content">
+              <span class="guide-tag">Beginner Guide</span>
+              <h3 class="guide-title">Hungry Shark Evolution: Complete Starter Guide</h3>
+              <p class="guide-desc">Which starter shark is best? How to level up fast? We cover mission priorities, gem-saving tips, and the best power-ups for new players.</p>
+              <a href="#featured-reviews" class="btn btn-guide">Learn More →</a>
+            </div>
+          </div>
+
+          <div class="guide-card">
+            <div class="guide-icon">🏎️</div>
+            <div class="guide-content">
+              <span class="guide-tag">Pro Tips</span>
+              <h3 class="guide-title">Real Racing 3: Corner Entry & Braking Mastery</h3>
+              <p class="guide-desc">Stop losing time at corners. We cover optimal braking points for every track type, TSM strategy, and the best car upgrades for lap time improvement.</p>
+              <a href="#featured-reviews" class="btn btn-guide">Learn More →</a>
+            </div>
+          </div>
+
+          <div class="guide-card">
+            <div class="guide-icon">🏃</div>
+            <div class="guide-content">
+              <span class="guide-tag">Tips & Tricks</span>
+              <h3 class="guide-title">Temple Run 2: Survive Longer Every Single Run</h3>
+              <p class="guide-desc">Pattern recognition tricks, optimal power-up upgrade order, and the little-known shortcuts that can double your high score.</p>
+              <a href="#featured-reviews" class="btn btn-guide">Learn More →</a>
+            </div>
+          </div>
+
+          <div class="guide-card">
+            <div class="guide-icon">⚽</div>
+            <div class="guide-content">
+              <span class="guide-tag">Strategy</span>
+              <h3 class="guide-title">Score Hero: Solve Hard Levels Without Replaying</h3>
+              <p class="guide-desc">Read defensive formations, use curved passes, and find the two-pass solution hiding in every difficult level. Stop wasting energy.</p>
+              <a href="#featured-reviews" class="btn btn-guide">Learn More →</a>
+            </div>
+          </div>
+
+          <div class="guide-card">
+            <div class="guide-icon">💥</div>
+            <div class="guide-content">
+              <span class="guide-tag">Beginner Guide</span>
+              <h3 class="guide-title">Mini Militia: Best Weapon Loadouts for New Players</h3>
+              <p class="guide-desc">The best primary + secondary combos, jetpack control tips, and custom game settings that make training most effective.</p>
+              <a href="#featured-reviews" class="btn btn-guide">Learn More →</a>
+            </div>
+          </div>
+
+          <div class="guide-card">
+            <div class="guide-icon">🎭</div>
+            <div class="guide-content">
+              <span class="guide-tag">Pro Tips</span>
+              <h3 class="guide-title">Stumble Guys: Win More Rounds with Movement Tricks</h3>
+              <p class="guide-desc">Dive timing, crowd navigation, shortcut routes on popular maps, and how to use other players as shields in final rounds.</p>
+              <a href="#top-games" class="btn btn-guide">Learn More →</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="carouselPrev" aria-label="Previous guide">&#8592;</button>
+          <div class="carousel-dots" id="carouselDots" aria-label="Carousel pagination"></div>
+          <button class="carousel-btn" id="carouselNext" aria-label="Next guide">&#8594;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEGINNER ZONE -->
+  <section class="section beginner-section" id="beginner" aria-label="Beginner Tutorials">
+    <div class="container">
+      <div class="beginner-wrapper">
+        <div class="beginner-text">
+          <div class="badge-label">🎓 New to Gaming?</div>
+          <h2 class="section-title left-align">Start Here: Beginner Tutorials for Every Gamer</h2>
+          <p class="beginner-desc">Never picked up a controller? Just got your first smartphone? Our beginner library breaks down everything from basic game mechanics to advanced strategy — because we believe anyone can be a gamer.</p>
+          <ul class="beginner-list">
+            <li>✅ How to understand in-game currencies and avoid overspending</li>
+            <li>✅ Free-to-play vs. pay-to-win — what to watch out for</li>
+            <li>✅ How to read game ratings and pick the right game for your age</li>
+            <li>✅ Setting up parental controls for family-friendly gaming</li>
+            <li>✅ Building good gaming habits: sessions, breaks & sleep schedules</li>
+          </ul>
+          <a href="#guides" class="btn btn-primary">Explore Beginner Guides →</a>
+        </div>
+        <div class="beginner-cards">
+          <div class="b-card">
+            <span class="b-card-icon">📱</span>
+            <h4>Mobile Gaming Basics</h4>
+            <p>Storage management, battery tips, and must-have settings every mobile gamer needs.</p>
+          </div>
+          <div class="b-card">
+            <span class="b-card-icon">💻</span>
+            <h4>PC Gaming Setup Guide</h4>
+            <p>Choosing your first gaming PC to essential software — a complete beginner's checklist.</p>
+          </div>
+          <div class="b-card">
+            <span class="b-card-icon">🎯</span>
+            <h4>Improving Your Aim</h4>
+            <p>Simple drills to improve reaction time and accuracy in shooter games.</p>
+          </div>
+          <div class="b-card">
+            <span class="b-card-icon">🧠</span>
+            <h4>Strategy Fundamentals</h4>
+            <p>Resource management, map awareness, and decision-making under pressure.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-section" aria-label="Newsletter Signup">
+    <div class="container">
+      <div class="cta-wrapper">
+        <div class="cta-content">
+          <h2 class="cta-title">Never Miss a Game Release or Review</h2>
+          <p class="cta-desc">Join thousands of gamers who get our weekly digest — fresh reviews, exclusive tips, and breaking news delivered straight to you.</p>
+        </div>
+        <form class="cta-form" action="#" method="post" aria-label="Newsletter signup">
+          <input type="email" class="cta-input" placeholder="Enter your email address" required aria-label="Email address" />
+          <button type="submit" class="btn btn-primary">Subscribe Free</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="logo" aria-label="GamesHub Pro">
+          <span class="logo-icon">🎮</span>
+          <span class="logo-text">GamesHub<span class="logo-accent">Pro</span></span>
+        </a>
+        <p class="footer-tagline">Your trusted companion for mobile & PC gaming reviews, guides, and news. We play the games so you know what's worth your time.</p>
+        <p class="footer-disclaimer">GamesHub Pro is an independent review site. All game names and trademarks are property of their respective owners. We do not host any game files.</p>
+      </div>
+      <div class="footer-links">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul class="footer-nav">
+          <li><a href="#featured-reviews">Game Reviews</a></li>
+          <li><a href="#top-games">Top Must-Play List</a></li>
+          <li><a href="#news">Latest News</a></li>
+          <li><a href="#guides">Strategy Guides</a></li>
+          <li><a href="#beginner">Beginner Tutorials</a></li>
+          <li><a href="#categories">Game Categories</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4 class="footer-heading">Game Highlights</h4>
+        <ul class="footer-nav">
+          <li><a href="https://realracing3modapk.site/" rel="dofollow">Real Racing 3 Mod APK</a></li>
+          <li><a href="https://templerun2modapk.xyz/" rel="dofollow">Temple Run 2 Mod APK</a></li>
+          <li><a href="https://scoreheromodapk.online/" rel="dofollow">Score Hero MOD APK</a></li>
+          <li><a href="https://sonicdashmodapk.online/" rel="dofollow">Sonic Dash MOD APK</a></li>
+          <li><a href="http://minimilitiamodapk.online/" rel="dofollow">Mini Militia Mod APK</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4 class="footer-heading">Game Genres</h4>
+        <ul class="footer-nav">
+          <li><a href="#categories">Action Games</a></li>
+          <li><a href="#categories">Racing Games</a></li>
+          <li><a href="#categories">Puzzle Games</a></li>
+          <li><a href="#categories">Sports Games</a></li>
+          <li><a href="#categories">RPG & Adventure</a></li>
+          <li><a href="#categories">Shooter Games</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p class="copyright">© 2025 GamesHub Pro. All rights reserved. Content is for informational and review purposes only.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Hamburger toggle
+    const hamburger = document.getElementById('hamburger');
+    const mainNav = document.querySelector('.main-nav');
+    hamburger.addEventListener('click', () => {
+      const expanded = hamburger.getAttribute('aria-expanded') === 'true';
+      hamburger.setAttribute('aria-expanded', String(!expanded));
+      hamburger.classList.toggle('active');
+      mainNav.classList.toggle('nav-open');
+    });
+
+    // Sticky header
+    const header = document.querySelector('.site-header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    }, { passive: true });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          mainNav.classList.remove('nav-open');
+          hamburger.classList.remove('active');
+          hamburger.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+
+    // Carousel
+    const carousel = document.getElementById('guidesCarousel');
+    const prevBtn = document.getElementById('carouselPrev');
+    const nextBtn = document.getElementById('carouselNext');
+    const dotsContainer = document.getElementById('carouselDots');
+    const cards = carousel.querySelectorAll('.guide-card');
+    let currentIndex = 0;
+    const getVisible = () => window.innerWidth >= 1024 ? 3 : window.innerWidth >= 640 ? 2 : 1;
+
+    function buildDots() {
+      dotsContainer.innerHTML = '';
+      const count = Math.ceil(cards.length / getVisible());
+      for (let i = 0; i < count; i++) {
+        const dot = document.createElement('button');
+        dot.className = 'dot' + (i === 0 ? ' dot-active' : '');
+        dot.setAttribute('aria-label', 'Guide set ' + (i + 1));
+        dot.addEventListener('click', () => goTo(i));
+        dotsContainer.appendChild(dot);
+      }
+    }
+
+    function goTo(index) {
+      const visible = getVisible();
+      const maxIndex = Math.ceil(cards.length / visible) - 1;
+      currentIndex = Math.max(0, Math.min(index, maxIndex));
+      const cardWidth = cards[0].offsetWidth + 24;
+      carousel.scrollTo({ left: currentIndex * visible * cardWidth, behavior: 'smooth' });
+      document.querySelectorAll('.dot').forEach((d, i) => d.classList.toggle('dot-active', i === currentIndex));
+    }
+
+    prevBtn.addEventListener('click', () => goTo(currentIndex - 1));
+    nextBtn.addEventListener('click', () => goTo(currentIndex + 1));
+    buildDots();
+    window.addEventListener('resize', buildDots, { passive: true });
+
+    // Intersection observer fade-in
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.review-card, .must-play-card, .news-card, .guide-card, .category-card, .b-card').forEach(el => {
+      el.classList.add('fade-in');
+      io.observe(el);
+    });
+  </script>
+
+</body>
+</html>
